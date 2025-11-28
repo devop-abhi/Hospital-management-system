@@ -5,7 +5,7 @@ A fully-featured desktop-based Hospital Management System designed to automate p
 The system is built using Java Swing for GUI and MySQL for database operations — offering a clean, efficient, and user-friendly experience.
 
 🚀 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬
-🔐 1. Login & Authentication
+ 1. Login & Authentication
 
 ✔ Validates user credentials from MySQL
 
@@ -13,7 +13,7 @@ The system is built using Java Swing for GUI and MySQL for database operations �
 
 ✔ Redirects to Reception dashboard upon success
 
-🏥 2. Reception Dashboard
+2. Reception Dashboard
 
 A centralized module connecting all features:
 
@@ -35,7 +35,7 @@ A centralized module connecting all features:
 
 📋 All Patients Info
 
-🧾 3. New Patient Registration
+ 3. New Patient Registration
 
 📝 Register patients with name, age, gender, disease, phone, Aadhar, address
 
@@ -43,7 +43,7 @@ A centralized module connecting all features:
 
 🔄 Auto-updates room availability status
 
-🔄 4. Update Patient Details
+ 4. Update Patient Details
 
 ✏ Modify existing patient data
 
@@ -51,7 +51,7 @@ A centralized module connecting all features:
 
 ⚡ Instant reflection of updates in DB
 
-📤 5. Patient Discharge Module
+ 5. Patient Discharge Module
 
 📥 Auto fetch patient details
 
@@ -63,7 +63,7 @@ A centralized module connecting all features:
 
 🧹 Removes patient from active list
 
-🏨 6. Room Management
+ 6. Room Management
 
 Displays complete room details including:
 
@@ -77,7 +77,7 @@ Displays complete room details including:
 
 ♻ Auto-refresh based on DB data
 
-🔍 7. Search Room
+ 7. Search Room
 
 Filter rooms by:
 
@@ -89,7 +89,7 @@ Filter rooms by:
 
 📊 Dynamic JTable with SQL filters
 
-👨‍⚕️ 8. Doctor Module
+ 8. Doctor Module
 
 📛 Doctor name
 
@@ -101,7 +101,7 @@ Filter rooms by:
 
 📋 Displayed in organized table view
 
-🏛 9. Department Module
+9. Department Module
 
 🏢 Shows all departments
 
@@ -109,10 +109,21 @@ Filter rooms by:
 
 🌐 Easy access from Reception dashboard
 
-🚑 10. Ambulance Module
+ 10. Ambulance Module
 
 📝 Register ambulance cases
 
 👤 Stores patient info (name, age, gender, Aadhar, etc.)
 
 🔙 Quick navigation with Back button
+
+Technology Stack:-
+
+| **Layer**           | **Technology**                                       |
+| ------------------- | ---------------------------------------------------- |
+| 🎨 **Frontend**     | Java Swing (JFrame, JPanel, JTable, JButton, Choice) |
+| 🗄 **Backend**      | MySQL Database                                       |
+| 🔗 **Connectivity** | JDBC                                                 |
+| 📚 **Libraries**    | net.proteanit.sql.DbUtils                            |
+| 🧩 **Paradigm**     | Object-Oriented Programming                          |
+

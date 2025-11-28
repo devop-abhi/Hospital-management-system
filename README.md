@@ -1,4 +1,5 @@
 🏥 𝐇𝐨𝐬𝐩𝐢𝐭𝐚𝐥 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐒𝐲𝐬𝐭𝐞𝐦
+
 Java Swing + MySQL + JDBC
 
 A fully-featured desktop-based Hospital Management System designed to automate patient registration, room allocation, doctor & department management, ambulance tracking, and discharge workflows.

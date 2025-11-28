@@ -1,4 +1,5 @@
-out/ 
-Hospital management system/
+out/
 .idea/
 *.class
+target/
+build/

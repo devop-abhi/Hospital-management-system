@@ -17,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-24/lib/src.zip!/java.desktop/java/awt/event/ActionListener.java" root0="SKIP_INSPECTION" />
   </component>
@@ -29,35 +32,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ALL_Patient_Info.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ambulance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Department.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Doctor_info.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Employee_info.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Login.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NEW_PATIENT.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Reception (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Reception (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Reception (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Reception.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Room.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SearchRoom.executor&quot;: &quot;Run&quot;,
-    &quot;Application.patient_discharge (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.patient_discharge.executor&quot;: &quot;Run&quot;,
-    &quot;Application.update_patient_details.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Abhishek kumar/Desktop/Hospital management system&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ALL_Patient_Info.executor": "Run",
+    "Application.Ambulance.executor": "Run",
+    "Application.Department.executor": "Run",
+    "Application.Doctor_info.executor": "Run",
+    "Application.Employee_info.executor": "Run",
+    "Application.Login.executor": "Run",
+    "Application.NEW_PATIENT.executor": "Run",
+    "Application.Reception (1).executor": "Run",
+    "Application.Reception (2).executor": "Run",
+    "Application.Reception (3).executor": "Run",
+    "Application.Reception.executor": "Run",
+    "Application.Room.executor": "Run",
+    "Application.SearchRoom.executor": "Run",
+    "Application.patient_discharge (1).executor": "Run",
+    "Application.patient_discharge.executor": "Run",
+    "Application.update_patient_details.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Abhishek kumar/Desktop/Hospital management system",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Login">
     <configuration name="ALL_Patient_Info" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hospital.management.system.ALL_Patient_Info" />

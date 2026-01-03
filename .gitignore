@@ -1,3 +1,7 @@
 .idea/
 out/
 *.class
+# IntelliJ IDEA
+*.iml
+.idea/
+

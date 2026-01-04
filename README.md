@@ -1,4 +1,5 @@
-🏥 𝐇𝐨𝐬𝐩𝐢𝐭𝐚𝐥 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐒𝐲𝐬𝐭𝐞𝐦
+🏥𝐇𝐨𝐬𝐩𝐢𝐭𝐚𝐥 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐒𝐲𝐬𝐭𝐞𝐦
+
 Java Swing • MySQL • JDBC
 
 A fully-featured desktop-based Hospital Management System designed to automate and streamline:
@@ -8,6 +9,8 @@ Patient Registration, Room Allocation, Doctor & Department Management, Ambulance
 Built using Java Swing for an interactive GUI and MySQL for robust database operations — delivering a clean, efficient, and user-friendly experience.
 
 🚀 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬
+
+
 🔐 1. Login & Authentication
 
 ✔ Validates user credentials from MySQL
@@ -16,7 +19,9 @@ Built using Java Swing for an interactive GUI and MySQL for robust database oper
 
 ✔ Redirects to Reception Dashboard upon successful login
 
-🧭 2. Reception Dashboard
+
+ 2. Reception Dashboard
+
 
 A centralized control panel connecting all hospital operations:
 
@@ -38,7 +43,9 @@ A centralized control panel connecting all hospital operations:
 
 📋 All Patients Information
 
-📝 3. New Patient Registration
+
+ 3. New Patient Registration
+    
 
 Register patients with:
 
@@ -52,7 +59,9 @@ Aadhar Number, Address
 
 🔄 Auto-updates room availability status
 
-✏️ 4. Update Patient Details
+
+ 4. Update Patient Details
+    
 
 ✏ Modify existing patient records
 
@@ -60,7 +69,9 @@ Aadhar Number, Address
 
 ⚡ Instant reflection of updates in the database
 
-📤 5. Patient Discharge Module
+
+ 5. Patient Discharge Module
+    
 
 📥 Auto-fetches patient details
 
@@ -72,7 +83,9 @@ Aadhar Number, Address
 
 🧹 Removes patient from active list
 
-🛏 6. Room Management
+
+ 6. Room Management
+    
 
 Displays complete room information, including:
 
@@ -86,7 +99,9 @@ Displays complete room information, including:
 
 ♻ Auto-refresh using live database data
 
-🔍 7. Search Room
+
+ 7. Search Room
+    
 
 Filter rooms using SQL-powered dynamic search:
 
@@ -98,7 +113,9 @@ Filter rooms using SQL-powered dynamic search:
 
 📊 Dynamic JTable with real-time filters
 
-👨‍⚕️ 8. Doctor Module
+
+ 8. Doctor Module
+    
 
 📛 Doctor Name
 
@@ -110,7 +127,9 @@ Filter rooms using SQL-powered dynamic search:
 
 📋 Displayed in a structured table view
 
-🏢 9. Department Module
+
+ 9. Department Module
+     
 
 🏢 Displays all hospital departments
 
@@ -118,7 +137,9 @@ Filter rooms using SQL-powered dynamic search:
 
 🌐 Quick access from Reception Dashboard
 
-🚑 10. Ambulance Module
+
+ 10. Ambulance Module
+     
 
 📝 Register ambulance cases
 
@@ -129,6 +150,7 @@ Name, Age, Gender
 Aadhar Number, etc.
 
 🔙 Easy navigation with Back button
+
 
 Technology Stack:-
 

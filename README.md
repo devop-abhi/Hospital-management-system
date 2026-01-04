@@ -1,22 +1,24 @@
 🏥 𝐇𝐨𝐬𝐩𝐢𝐭𝐚𝐥 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐒𝐲𝐬𝐭𝐞𝐦
+Java Swing • MySQL • JDBC
 
-Java Swing + MySQL + JDBC
+A fully-featured desktop-based Hospital Management System designed to automate and streamline:
 
-A fully-featured desktop-based Hospital Management System designed to automate patient registration, room allocation, doctor & department management, ambulance tracking, and discharge workflows.
-The system is built using Java Swing for GUI and MySQL for database operations — offering a clean, efficient, and user-friendly experience.
+Patient Registration, Room Allocation, Doctor & Department Management, Ambulance Tracking, and Discharge Workflows.
+
+Built using Java Swing for an interactive GUI and MySQL for robust database operations — delivering a clean, efficient, and user-friendly experience.
 
 🚀 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬
- 1. Login & Authentication
+🔐 1. Login & Authentication
 
 ✔ Validates user credentials from MySQL
 
 ✔ Prevents unauthorized access
 
-✔ Redirects to Reception dashboard upon success
+✔ Redirects to Reception Dashboard upon successful login
 
-2. Reception Dashboard
+🧭 2. Reception Dashboard
 
-A centralized module connecting all features:
+A centralized control panel connecting all hospital operations:
 
 ➕ New Patient Registration
 
@@ -34,53 +36,59 @@ A centralized module connecting all features:
 
 📤 Patient Discharge
 
-📋 All Patients Info
+📋 All Patients Information
 
- 3. New Patient Registration
+📝 3. New Patient Registration
 
-📝 Register patients with name, age, gender, disease, phone, Aadhar, address
+Register patients with:
+
+Name, Age, Gender
+
+Disease, Phone Number
+
+Aadhar Number, Address
 
 🛏 Dynamic room assignment
 
 🔄 Auto-updates room availability status
 
- 4. Update Patient Details
+✏️ 4. Update Patient Details
 
-✏ Modify existing patient data
+✏ Modify existing patient records
 
-🔢 Edit room number, contact, age, disease, etc.
+🔢 Edit room number, contact details, age, disease, etc.
 
-⚡ Instant reflection of updates in DB
+⚡ Instant reflection of updates in the database
 
- 5. Patient Discharge Module
+📤 5. Patient Discharge Module
 
-📥 Auto fetch patient details
+📥 Auto-fetches patient details
 
 📅 Calculates stay duration
 
 💰 Generates billing
 
-🛏 Frees room (sets status to Available)
+🛏 Frees room (status set to Available)
 
 🧹 Removes patient from active list
 
- 6. Room Management
+🛏 6. Room Management
 
-Displays complete room details including:
+Displays complete room information, including:
 
-🔢 Room number
+🔢 Room Number
 
-🟢 Availability
+🟢 Availability Status
 
-🧼 Cleaning status
+🧼 Cleaning Status
 
-💸 Price & type
+💸 Price & Room Type
 
-♻ Auto-refresh based on DB data
+♻ Auto-refresh using live database data
 
- 7. Search Room
+🔍 7. Search Room
 
-Filter rooms by:
+Filter rooms using SQL-powered dynamic search:
 
 ❄ AC / 🚫 Non-AC
 
@@ -88,11 +96,11 @@ Filter rooms by:
 
 🟢 Availability
 
-📊 Dynamic JTable with SQL filters
+📊 Dynamic JTable with real-time filters
 
- 8. Doctor Module
+👨‍⚕️ 8. Doctor Module
 
-📛 Doctor name
+📛 Doctor Name
 
 🎓 Qualification
 
@@ -100,23 +108,27 @@ Filter rooms by:
 
 📈 Experience
 
-📋 Displayed in organized table view
+📋 Displayed in a structured table view
 
-9. Department Module
+🏢 9. Department Module
 
-🏢 Shows all departments
+🏢 Displays all hospital departments
 
-🔗 SQL JOIN with doctor table
+🔗 Uses SQL JOIN with Doctor table
 
-🌐 Easy access from Reception dashboard
+🌐 Quick access from Reception Dashboard
 
- 10. Ambulance Module
+🚑 10. Ambulance Module
 
 📝 Register ambulance cases
 
-👤 Stores patient info (name, age, gender, Aadhar, etc.)
+👤 Stores patient details:
 
-🔙 Quick navigation with Back button
+Name, Age, Gender
+
+Aadhar Number, etc.
+
+🔙 Easy navigation with Back button
 
 Technology Stack:-
 

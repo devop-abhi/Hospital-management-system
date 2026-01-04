@@ -1,44 +1,44 @@
-🏥 Hospital Management System
+🏥 𝐇𝐨𝐬𝐩𝐢𝐭𝐚𝐥 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐒𝐲𝐬𝐭𝐞𝐦
+Java Swing • MySQL • JDBC
 
-A robust desktop-based hospital management application developed in Java using Swing for the GUI and MySQL for database management.
-This system simulates real-world hospital workflows, providing a secure, efficient, and user-friendly interface for managing patients, rooms, doctors, departments, ambulance services, and discharge processes.
+A fully-featured desktop-based Hospital Management System designed to automate and streamline:
 
-Features
-Authentication & Security
+Patient Registration, Room Allocation, Doctor & Department Management, Ambulance Tracking, and Discharge Workflows.
 
-Secure Login:
-Users must authenticate using valid credentials stored in the MySQL database.
+Built using Java Swing for an interactive GUI and MySQL for robust database operations — delivering a clean, efficient, and user-friendly experience.
 
-Access Control:
-Prevents unauthorized access to hospital data and system modules.
+🚀 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬
+🔐 1. Login & Authentication
 
-Role-Based Navigation:
-Successful login redirects users to the Reception Dashboard.
+✔ Validates user credentials from MySQL
 
-Reception Dashboard
+✔ Prevents unauthorized access
 
-A centralized control panel that provides access to all hospital operations:
+✔ Redirects to Reception Dashboard upon successful login
 
-New Patient Registration
+🧭 2. Reception Dashboard
 
-Update Patient Details
+A centralized control panel connecting all hospital operations:
 
-Doctor Information Management
+➕ New Patient Registration
 
-Department List
+🔄 Update Patient Details
 
-Room Status Monitoring
+👨‍⚕️ Doctor Information
 
-Room Search
+🏛 Department List
 
-Ambulance Services
+🛏 Room Status
 
-Patient Discharge
+🔍 Search Room
 
-All Patients Information
+🚑 Ambulance Service
 
-Patient Management
-New Patient Registration
+📤 Patient Discharge
+
+📋 All Patients Information
+
+📝 3. New Patient Registration
 
 Register patients with:
 
@@ -48,97 +48,87 @@ Disease, Phone Number
 
 Aadhar Number, Address
 
-Dynamic room allocation
+🛏 Dynamic room assignment
 
-Automatic update of room availability
+🔄 Auto-updates room availability status
 
-Update Patient Details
+✏️ 4. Update Patient Details
 
-Modify existing patient records
+✏ Modify existing patient records
 
-Update:
+🔢 Edit room number, contact details, age, disease, etc.
 
-Room number
+⚡ Instant reflection of updates in the database
 
-Contact details
+📤 5. Patient Discharge Module
 
-Age and disease
+📥 Auto-fetches patient details
 
-Changes are instantly reflected in the database
+📅 Calculates stay duration
 
-Patient Discharge & Billing
+💰 Generates billing
 
-Auto-fetch patient details
+🛏 Frees room (status set to Available)
 
-Calculate total stay duration
+🧹 Removes patient from active list
 
-Generate billing automatically
+🛏 6. Room Management
 
-Free room by updating its status to Available
+Displays complete room information, including:
 
-Remove patient from active records
+🔢 Room Number
 
-Room Management
+🟢 Availability Status
 
-View complete room details:
+🧼 Cleaning Status
 
-Room Number
+💸 Price & Room Type
 
-Availability Status
+♻ Auto-refresh using live database data
 
-Cleaning Status
+🔍 7. Search Room
 
-Room Price
+Filter rooms using SQL-powered dynamic search:
 
-Room Type
+❄ AC / 🚫 Non-AC
 
-Auto-refreshes based on live database data
+🛏 Single / Double
 
-Room Search
+🟢 Availability
 
-Filter rooms based on:
+📊 Dynamic JTable with real-time filters
 
-AC / Non-AC
+👨‍⚕️ 8. Doctor Module
 
-Single / Double
+📛 Doctor Name
 
-Availability
+🎓 Qualification
 
-Results displayed using a dynamic JTable powered by SQL queries
+🧪 Specialization
 
-Doctor Management
+📈 Experience
 
-Manage doctor information including:
+📋 Displayed in a structured table view
 
-Doctor Name
+🏢 9. Department Module
 
-Qualification
+🏢 Displays all hospital departments
 
-Specialization
+🔗 Uses SQL JOIN with Doctor table
 
-Experience
+🌐 Quick access from Reception Dashboard
 
-Displayed in a structured tabular format
+🚑 10. Ambulance Module
 
-Department Management
+📝 Register ambulance cases
 
-View all hospital departments
-
-Uses SQL JOIN with the Doctor table
-
-Accessible directly from the Reception Dashboard
-
-Ambulance Services
-
-Register ambulance cases
-
-Store patient details:
+👤 Stores patient details:
 
 Name, Age, Gender
 
-Aadhar Number
+Aadhar Number, etc.
 
-Simple and fast navigation with Back button support
+🔙 Easy navigation with Back button
 
 Technology Stack:-
 
